@@ -1,0 +1,27 @@
+.card-child{
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0.1rem solid var(--lynx-grey);
+    box-shadow: 0.3rem 0.3rem 0.1rem rgba(0,0,0,0.2);
+}
+
+.card-quiz-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.card-image-cont{
+    width: 100%;
+    height: 65%;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}

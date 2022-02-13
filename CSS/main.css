@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rowdies:wght@700&family=Shizuru&display=swap');
+
+@import "/CSS/cards.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --lt-grey:	#f3f3f3;
+}
+
+h1, h2, h3{
+    font-weight:lighter;
+}
+
+.container-quiz{
+    width: 100%;
+    min-height: 50vh;
+    height: max-content;
+}
+
+.container-secondary-quiz{
+    margin: auto;
+    width: 80%;
+    min-height: 50vh;
+    height: max-content;
+}
+
+.quiz-header{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 5rem 3rem 2rem 3rem;
+}
+
+.quiz-header h1{
+    font-size: 3rem;
+}
+
+.quiz-body{
+    margin: auto;
+    width: 80%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
