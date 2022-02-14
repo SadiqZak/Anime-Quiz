@@ -23,6 +23,12 @@ a{
     color: var(--black-color);
 }
 
+.nav-home{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
 .container-quiz{
     width: 100%;
     height: max-content;
@@ -52,4 +58,22 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+}
+
+.quiz-body-center{
+    margin: auto;
+    width: 80%;
+    height: fit-content; 
+}
+
+.center-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* update comp library */
+
+.ht-200{
+    height: 200px;
 }
