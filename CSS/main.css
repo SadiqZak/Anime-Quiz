@@ -10,22 +10,27 @@
 
 :root{
     --lt-grey:	#f3f3f3;
+    --alice-blue: aliceblue;
+    --aqua-blue: aqua;
 }
 
 h1, h2, h3{
     font-weight:lighter;
 }
 
+a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
 .container-quiz{
     width: 100%;
-    min-height: 50vh;
     height: max-content;
 }
 
 .container-secondary-quiz{
     margin: auto;
     width: 80%;
-    min-height: 50vh;
     height: max-content;
 }
 
@@ -43,7 +48,7 @@ h1, h2, h3{
 .quiz-body{
     margin: auto;
     width: 80%;
-    height: max-content;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;

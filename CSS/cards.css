@@ -4,12 +4,30 @@
     cursor: pointer;
     border: 0.1rem solid var(--lynx-grey);
     box-shadow: 0.3rem 0.3rem 0.1rem rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.card-child:hover{
+  border: none;
+  box-shadow: none;
+}
+
+.card-secondary:hover{
+    position: absolute;
+    top: -0.8rem;
+    left: -0.8rem;
+    transition: 0.2s ease-in-out;
+    width: 18.75rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--lynx-grey);
+    box-shadow: 0.3rem 0.3rem 0.1rem rgba(0,0,0,0.2);
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .card-quiz-body{
     display: flex;
     flex-direction: column;
-    height: 100%;
     padding: 1rem 0.5rem;
 }
 
