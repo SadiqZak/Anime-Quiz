@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rowdies:wght@700&family=Shizuru&display=swap');
 
 @import "/CSS/cards.css";
+@import "/CSS/navbar.css";
 
 *{
     padding: 0;
@@ -35,9 +36,11 @@ a{
 }
 
 .container-secondary-quiz{
-    margin: auto;
+    margin: 5rem auto;
     width: 80%;
     height: max-content;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .quiz-header{
@@ -45,6 +48,27 @@ a{
     width: 80%;
     text-align: center;
     padding: 5rem 3rem 2rem 3rem;
+}
+
+.quiz-header-rules{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 5rem 3rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.5rem
+}
+
+.quiz-header-tag{
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:400px){
+    .quiz-header-tag{
+        font-size: 1.5rem;
+    }
 }
 
 .quiz-header h1{
@@ -55,9 +79,11 @@ a{
     margin: auto;
     width: 80%;
     height: fit-content;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .quiz-body-center{
