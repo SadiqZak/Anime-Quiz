@@ -93,3 +93,23 @@
     background-color: var(--black-color);
     color: var(--white-color);
 }
+
+.quiz-option-child-results{
+    width: 100%;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 0.1rem solid var(--lynx-grey);
+    padding: 1rem;
+    margin: 0.2rem;
+    font-weight: bold;
+}
+
+.active-right{
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.active-wrong{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}

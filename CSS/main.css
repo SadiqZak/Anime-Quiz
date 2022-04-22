@@ -25,9 +25,11 @@ a{
 }
 
 .nav-home{
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin: 2rem;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem 0 4rem;
 }
 
 .container-quiz{
